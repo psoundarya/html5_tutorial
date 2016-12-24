@@ -2,32 +2,52 @@
 
 <head>
    <title>Anchor Tag</title>
+
 </head>
 
 <body>
+   <!--Refer this link for html codes http://www.ascii.cl/htmlcodes.htm -->
    <div id="top">
       <h1>Anchor tag page</h1>
-      <h2>Table of Contents:</h2>   
-      <a href="#def">Definition and Usage</a></br>
-      <a href="#ex">Example</a></br>
-      <a href="#at">Attributes</a></br></br></br></br></br>
+      <h2>Table of Contents:</h2>
+      <ol type="A" id="toc">
+         <li><a href="#def">Definition and Usage</a>
+            <ol type="i">
+               <li><a href="#ex">Example</a></li>
+            </ol>
+         </li>
+         <li><a href="#at">Attributes</a>
+            <ol type="a">
+               <li>href</li>
+               <li>target</li>
+               <li>rel</li>
+            </ol> 
+         </li>
+      </ol>
       <h2 id="def">Definition and Usage</h2>
       <p>The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.</br>
          The most important attribute of the <a> element is the href attribute, which indicates the link's destination.</p>
       <p>By default, links will appear as follows in all browsers:</br>
-         &nbsp;&nbsp;&nbsp;&nbsp;* An unvisited link is underlined and blue</br>
-         &nbsp;&nbsp;&nbsp;&nbsp;* A visited link is underlined and purple</br>
-         &nbsp;&nbsp;&nbsp;&nbsp;* An active link is underlined and red
+         <ul>
+           <li>An unvisited link is underlined and blue</li> 
+           <li>A visited link is underlined and purple</li>
+           <li>An active link is underlined and red</li>
+         </ul>
       </p>
+      <div id="ex">
+         <h3>Example</h3>
+         &lt;a href="http://www.google.com"&gt;Visit Google.com!&lt;/a&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="http://www.google.com">Visit Google.com!</a></br>
+         &lt;a href="file2.html"&gt;Visit Google.com!&lt;/a&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a href="file2.html">File2</a>
    </div>
-   </br></br></br>
-   <div id="ex">
-      <h2>Example</h2>
-       &lt;a href="http://www.google.com"&gt;Visit Google.com!&lt;/a&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="http://www.google.com">Visit Google.com!</a></br>
-       &lt;a href="file2.html"&gt;Visit Google.com!&lt;/a&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="file2.html">File2</a>
-   </div></br></br></br>
+   </br>
+   </br>
+   </br>
+   </div>
+   </br>
+   </br>
+   </br>
    <div id="at">
       <h2>Attributes</h2>
       &nbsp;&nbsp;&nbsp;&nbsp;* <b>href</b> : <i>Specifies the URL of the page the link goes to.</i></br>
