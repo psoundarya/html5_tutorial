@@ -1,78 +1,70 @@
-body
-{
+body {
     background-color: white;
-    border: 0%;
+    border: 0px none greenyellow;
     padding: 0%;
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
 }
-.page_header
-{
-    width: 100%;
+
+div {
+    border: 0px none greenyellow;
+}
+
+
+/* ---------- Page Header ---------- */
+
+.page_header {
     height: 150px;
     background-color: black;
-    background-image: url("../../images/OS.jpg")  ;
+    background-image: url("../../images/OS.jpg");
     background-repeat: no-repeat;
-    border: 0%;
     padding: 0%;
     margin: 0%;
     color: white;
 }
-.page_body
-{
-    border: 0%;
-    padding: 0%;
-    margin: 0px 0px 0px 105px;
+
+
+/* ---------- Page Header End ---------- */
+
+
+/* ---------- Left Menu ---------- */
+
+.left_menu {
+    height: calc(100% - 150px);
     float: left;
+    background-color: #d6d6c2;
+    width: 120px;
 }
 
-.heading
-{
-    font-size: 30px;
-}    
-.image
-{
-    /*float: right; 
+
+/* ---------- Left Menu End ---------- */
+
+
+/* ---------- Page Body  ---------- */
+
+.page_body {
+    float: left;
+    margin: 0px 0px 0px 125px;
     position: absolute;
-    left: 900px;
-    top: 40px;*/
 }
-.shifting
-{
-    float: left;
-}
-.left_menu
-{
-    float: left;
-    background-color:#d6d6c2;
-    height: 95.5%;
-    width: 100px;
-}   
-.page_fotter
-{
-    border: 0%;
-    padding: 0%;
-    margin: 0%;
-    width: 100%;
 
-    text-decoration: none;
-    margin-top: 50px;
+.row {
+    float: left;
+}
+
+
+/* ---------- Page Body End ---------- */
+
+
+/* ---------- Footer  ---------- */
+
+.page_footer {
+    float: left;
+    width: 100%;
     border: 1px solid black;
     position: relative;
 }
-a:link
-{
-    color: black;
-}
-a:visited
-{
-    color: gray;
-}
-.page_fotter1
-{
-     border: 0%;
-    padding: 0%;
-    margin: 0%;
-    float: right;
-}
+
+
+/* ---------- Footer End ---------- */
